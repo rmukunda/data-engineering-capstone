@@ -1,0 +1,2997 @@
+[
+	{
+		"city_code" : "VCB",
+		"city_name" : "VANCEBORO",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "AXB",
+		"city_name" : "ALEXANDRIABAY",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "BUF",
+		"city_name" : "BUFFALO",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "CNH",
+		"city_name" : "CANNONCORNERS",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "CAP",
+		"city_name" : "CAPEVINCENT",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "CHM",
+		"city_name" : "CHAMPLAIN",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "CHT",
+		"city_name" : "CHATEAUGAY",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "CLA",
+		"city_name" : "CLAYTON",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "FTC",
+		"city_name" : "FORTCOVINGTON",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "LAG",
+		"city_name" : "LAGUARDIA",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "LEW",
+		"city_name" : "LEWISTON",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "MAS",
+		"city_name" : "MASSENA",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "MAG",
+		"city_name" : "MCGUIREAFB",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "MOO",
+		"city_name" : "MOORES",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "MRR",
+		"city_name" : "MORRISTOWN",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "NYC",
+		"city_name" : "NEWYORK",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "NIA",
+		"city_name" : "NIAGARAFALLS",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "OGD",
+		"city_name" : "OGDENSBURG",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "OSW",
+		"city_name" : "OSWEGO",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "ELM",
+		"city_name" : "REGIONALARPT-HORSEHEAD",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "ROU",
+		"city_name" : "ROUSESPOINT",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "SWF",
+		"city_name" : "STEWART-ORANGECNTY",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "SYR",
+		"city_name" : "SYRACUSE",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "THO",
+		"city_name" : "THOUSANDISLANDBRIDGE",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "TRO",
+		"city_name" : "TROUTRIVER",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "WAT",
+		"city_name" : "WATERTOWN",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "HPN",
+		"city_name" : "WESTCHESTER-WHITEPLAINS",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "WRB",
+		"city_name" : "WHIRLPOOLBRIDGE",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "YOU",
+		"city_name" : "YOUNGSTOWN",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "AKR",
+		"city_name" : "AKRON",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "ATB",
+		"city_name" : "ASHTABULA",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "CIN",
+		"city_name" : "CINCINNATI",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "CLE",
+		"city_name" : "CLEVELAND",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "CLM",
+		"city_name" : "COLUMBUS",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "LOR",
+		"city_name" : "LORAIN",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "MBO",
+		"city_name" : "MARBLEHEADS",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "SDY",
+		"city_name" : "SANDUSKY",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "TOL",
+		"city_name" : "TOLEDO",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "OKC",
+		"city_name" : "OKLAHOMACITY",
+		"state" : "OK"
+	},
+	{
+		"city_code" : "TUL",
+		"city_name" : "TULSA",
+		"state" : "OK"
+	},
+	{
+		"city_code" : "AST",
+		"city_name" : "ASTORIA",
+		"state" : "OR"
+	},
+	{
+		"city_code" : "COO",
+		"city_name" : "COOSBAY",
+		"state" : "OR"
+	},
+	{
+		"city_code" : "HIO",
+		"city_name" : "HILLSBORO",
+		"state" : "OR"
+	},
+	{
+		"city_code" : "MED",
+		"city_name" : "MEDFORD",
+		"state" : "OR"
+	},
+	{
+		"city_code" : "NPT",
+		"city_name" : "NEWPORT",
+		"state" : "OR"
+	},
+	{
+		"city_code" : "POO",
+		"city_name" : "PORTLAND",
+		"state" : "OR"
+	},
+	{
+		"city_code" : "PUT",
+		"city_name" : "PUT-IN-BAY",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "RDM",
+		"city_name" : "ROBERTSFIELDS-REDMOND",
+		"state" : "OR"
+	},
+	{
+		"city_code" : "ERI",
+		"city_name" : "ERIE",
+		"state" : "PA"
+	},
+	{
+		"city_code" : "MDT",
+		"city_name" : "HARRISBURG",
+		"state" : "PA"
+	},
+	{
+		"city_code" : "HSB",
+		"city_name" : "HARRISONBURG",
+		"state" : "PA"
+	},
+	{
+		"city_code" : "PHI",
+		"city_name" : "PHILADELPHIA",
+		"state" : "PA"
+	},
+	{
+		"city_code" : "PIT",
+		"city_name" : "PITTSBURG",
+		"state" : "PA"
+	},
+	{
+		"city_code" : "AGU",
+		"city_name" : "AGUADILLA",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "BQN",
+		"city_name" : "BORINQUEN-AGUADILLO",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "JCP",
+		"city_name" : "CULEBRA-BENJAMINRIVERA",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "ENS",
+		"city_name" : "ENSENADA",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "FAJ",
+		"city_name" : "FAJARDO",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "HUM",
+		"city_name" : "HUMACAO",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "JOB",
+		"city_name" : "JOBOS",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "MAY",
+		"city_name" : "MAYAGUEZ",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "BOA",
+		"city_name" : "BRIDGEOFAMERICAS",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "BRO",
+		"city_name" : "BROWNSVILLE",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "CRP",
+		"city_name" : "CORPUSCHRISTI",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "DLR",
+		"city_name" : "DELRIO",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "DNA",
+		"city_name" : "DONNA",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "EGP",
+		"city_name" : "EAGLEPASS",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "ELP",
+		"city_name" : "ELPASO",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "FAB",
+		"city_name" : "FABENS",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "FAL",
+		"city_name" : "FALCONHEIGHTS",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "FTH",
+		"city_name" : "FORTHANCOCK",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "AFW",
+		"city_name" : "FORTWORTHALLIANCE",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "FPT",
+		"city_name" : "FREEPORT",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "GAL",
+		"city_name" : "GALVESTON",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "HLG",
+		"city_name" : "HARLINGEN",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "HID",
+		"city_name" : "HIDALGO",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "HOU",
+		"city_name" : "HOUSTON",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "SGR",
+		"city_name" : "HULLFIELD",
+		"state" : "SUGARLANDARPT"
+	},
+	{
+		"city_code" : "LLB",
+		"city_name" : "JUAREZ-LINCOLNBRIDGE",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "LCB",
+		"city_name" : "LAREDOCOLUMBIABRIDGE",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "LRN",
+		"city_name" : "LAREDONORTH",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "LAR",
+		"city_name" : "LAREDO",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "LSE",
+		"city_name" : "LOSEBANOS",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "IND",
+		"city_name" : "LOSINDIOS",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "LOI",
+		"city_name" : "LOSINDIOS",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "MCA",
+		"city_name" : "MCALLEN",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "MAF",
+		"city_name" : "ODESSAREGIONAL",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "PDN",
+		"city_name" : "PASODELNORTE",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "PBB",
+		"city_name" : "PEACEBRIDGE",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "PHR",
+		"city_name" : "PHARR",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "PAR",
+		"city_name" : "PORTARTHUR",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "ISB",
+		"city_name" : "PORTISABEL",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "POE",
+		"city_name" : "PORTOFELPASO",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "PRE",
+		"city_name" : "PRESIDIO",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "PGR",
+		"city_name" : "PROGRESO",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "RIO",
+		"city_name" : "RIOGRANDECITY",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "ROM",
+		"city_name" : "ROMA",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "SNA",
+		"city_name" : "SANANTONIO",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "SNN",
+		"city_name" : "SANDERSON",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "VIB",
+		"city_name" : "VETERANINTLBRIDGE",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "YSL",
+		"city_name" : "YSLETA",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "CHA",
+		"city_name" : "CHARLOTTEAMALIE",
+		"state" : "VI"
+	},
+	{
+		"city_code" : "CHR",
+		"city_name" : "CHRISTIANSTED",
+		"state" : "VI"
+	},
+	{
+		"city_code" : "CRU",
+		"city_name" : "CRUZBAY",
+		"state" : "STJOHN"
+	},
+	{
+		"city_code" : "FRK",
+		"city_name" : "FREDERIKSTED",
+		"state" : "VI"
+	},
+	{
+		"city_code" : "STT",
+		"city_name" : "STTHOMAS",
+		"state" : "VI"
+	},
+	{
+		"city_code" : "LGU",
+		"city_name" : "CACHEAIRPORT-LOGAN",
+		"state" : "UT"
+	},
+	{
+		"city_code" : "SLC",
+		"city_name" : "SALTLAKECITY",
+		"state" : "UT"
+	},
+	{
+		"city_code" : "CHO",
+		"city_name" : "ALBEMARLECHARLOTTESVILLE",
+		"state" : "VA"
+	},
+	{
+		"city_code" : "DAA",
+		"city_name" : "DAVISONAAF-FAIRFAXCNTY",
+		"state" : "VA"
+	},
+	{
+		"city_code" : "HOP",
+		"city_name" : "HOPEWELL",
+		"state" : "VA"
+	},
+	{
+		"city_code" : "NWN",
+		"city_name" : "NEWPORT",
+		"state" : "VA"
+	},
+	{
+		"city_code" : "NOR",
+		"city_name" : "NORFOLK",
+		"state" : "VA"
+	},
+	{
+		"city_code" : "RCM",
+		"city_name" : "RICHMOND",
+		"state" : "VA"
+	},
+	{
+		"city_code" : "ABS",
+		"city_name" : "ALBURGSPRINGS",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "ABG",
+		"city_name" : "ALBURG",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "BEB",
+		"city_name" : "BEEBEPLAIN",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "BEE",
+		"city_name" : "BEECHERFALLS",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "BRG",
+		"city_name" : "BURLINGTON",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "CNA",
+		"city_name" : "CANAAN",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "ERC",
+		"city_name" : "EASTRICHFORD",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "HIG",
+		"city_name" : "HIGHGATESPRINGS",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "FWA",
+		"city_name" : "FRONTIER",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "KLM",
+		"city_name" : "KALAMA",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "LAU",
+		"city_name" : "LAURIER",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "LON",
+		"city_name" : "LONGVIEW",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "MET",
+		"city_name" : "METALINEFALLS",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "MWH",
+		"city_name" : "MOSESLAKEGRANTCOUNTYARPT",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "NEA",
+		"city_name" : "NEAHBAY",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "NIG",
+		"city_name" : "NIGHTHAWK",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "OLY",
+		"city_name" : "OLYMPIA",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "ORO",
+		"city_name" : "OROVILLE",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "PWB",
+		"city_name" : "PASCO",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "PIR",
+		"city_name" : "POINTROBERTS",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "PNG",
+		"city_name" : "PORTANGELES",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "PTO",
+		"city_name" : "PORTTOWNSEND",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "SEA",
+		"city_name" : "SEATTLE",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "SPO",
+		"city_name" : "SPOKANE",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "SUM",
+		"city_name" : "SUMAS",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "TAC",
+		"city_name" : "TACOMA",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "PSC",
+		"city_name" : "TRI-CITIES-PASCO",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "VAN",
+		"city_name" : "VANCOUVER",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "AGM",
+		"city_name" : "ALGOMA",
+		"state" : "WI"
+	},
+	{
+		"city_code" : "BAY",
+		"city_name" : "BAYFIELD",
+		"state" : "WI"
+	},
+	{
+		"city_code" : "GRB",
+		"city_name" : "GREENBAY",
+		"state" : "WI"
+	},
+	{
+		"city_code" : "MNW",
+		"city_name" : "MANITOWOC",
+		"state" : "WI"
+	},
+	{
+		"city_code" : "MIL",
+		"city_name" : "MILWAUKEE",
+		"state" : "WI"
+	},
+	{
+		"city_code" : "MSN",
+		"city_name" : "TRUAXFIELD-DANECOUNTY",
+		"state" : "WI"
+	},
+	{
+		"city_code" : "CHS",
+		"city_name" : "CHARLESTON",
+		"state" : "WV"
+	},
+	{
+		"city_code" : "CLK",
+		"city_name" : "CLARKSBURG",
+		"state" : "WV"
+	},
+	{
+		"city_code" : "BLF",
+		"city_name" : "MERCERCOUNTY",
+		"state" : "WV"
+	},
+	{
+		"city_code" : "CSP",
+		"city_name" : "CASPER",
+		"state" : "WY"
+	},
+	{
+		"city_code" : "888",
+		"city_name" : "UNIDENTIFEDAIR\/SEAPORT",
+		"state" : null
+	},
+	{
+		"city_code" : "UNK",
+		"city_name" : "UNKNOWNPOE",
+		"state" : null
+	},
+	{
+		"city_code" : "CLG",
+		"city_name" : "CALGARY",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "EDA",
+		"city_name" : "EDMONTON",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "YHC",
+		"city_name" : "HAKAIPASS",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "HAL",
+		"city_name" : "Halifax",
+		"state" : "NS"
+	},
+	{
+		"city_code" : "MON",
+		"city_name" : "MONTREAL",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "OTT",
+		"city_name" : "OTTAWA",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "YXE",
+		"city_name" : "SASKATOON",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "TOR",
+		"city_name" : "TORONTO",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "VCV",
+		"city_name" : "VANCOUVER",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "VIC",
+		"city_name" : "VICTORIA",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "WIN",
+		"city_name" : "WINNIPEG",
+		"state" : "CANADA"
+	},
+	{
+		"city_code" : "AMS",
+		"city_name" : "AMSTERDAM-SCHIPHOL",
+		"state" : "NETHERLANDS"
+	},
+	{
+		"city_code" : "ARB",
+		"city_name" : "ARUBA",
+		"state" : "NETHANTILLES"
+	},
+	{
+		"city_code" : "BAN",
+		"city_name" : "BANKOK",
+		"state" : "THAILAND"
+	},
+	{
+		"city_code" : "BEI",
+		"city_name" : "BEICA#ARPT",
+		"state" : "ETHIOPIA"
+	},
+	{
+		"city_code" : "PEK",
+		"city_name" : "BEIJINGCAPITALINTL",
+		"state" : "PRC"
+	},
+	{
+		"city_code" : "BDA",
+		"city_name" : "KINDLEYFIELD",
+		"state" : "BERMUDA"
+	},
+	{
+		"city_code" : "BOG",
+		"city_name" : "BOGOTA",
+		"state" : "ELDORADO#ARPT"
+	},
+	{
+		"city_code" : "EZE",
+		"city_name" : "BUENOSAIRES",
+		"state" : "MINISTROPIST"
+	},
+	{
+		"city_code" : "CUN",
+		"city_name" : "CANCUN",
+		"state" : "MEXICO"
+	},
+	{
+		"city_code" : "MVD",
+		"city_name" : "CARRASCO",
+		"state" : "URUGUAY"
+	},
+	{
+		"city_code" : "DUB",
+		"city_name" : "DUBLIN",
+		"state" : "IRELAND"
+	},
+	{
+		"city_code" : "FOU",
+		"city_name" : "FOUGAMOU#ARPT",
+		"state" : "GABON"
+	},
+	{
+		"city_code" : "FBA",
+		"city_name" : "FREEPORT",
+		"state" : "BAHAMAS"
+	},
+	{
+		"city_code" : "MTY",
+		"city_name" : "GENM.ESCOBEDO",
+		"state" : "Monterrey"
+	},
+	{
+		"city_code" : "HMO",
+		"city_name" : "GENPESQUEIRAGARCIA",
+		"state" : "MX"
+	},
+	{
+		"city_code" : "GCM",
+		"city_name" : "GRANDCAYMAN",
+		"state" : "CAYMANISLAND"
+	},
+	{
+		"city_code" : "GDL",
+		"city_name" : "GUADALAJARA",
+		"state" : "MIGUELHIDAL"
+	},
+	{
+		"city_code" : "HAM",
+		"city_name" : "HAMILTON",
+		"state" : "BERMUDA"
+	},
+	{
+		"city_code" : "ICN",
+		"city_name" : "INCHON",
+		"state" : "SEOULKOREA"
+	},
+	{
+		"city_code" : "IWA",
+		"city_name" : "INVALID-IWAKUNI",
+		"state" : "JAPAN"
+	},
+	{
+		"city_code" : "CND",
+		"city_name" : "KOGALNICEANU",
+		"state" : "ROMANIA"
+	},
+	{
+		"city_code" : "LAH",
+		"city_name" : "LABUHAARPT",
+		"state" : "INDONESIA"
+	},
+	{
+		"city_code" : "DUR",
+		"city_name" : "LOUISBOTHA",
+		"state" : "SOUTHAFRICA"
+	},
+	{
+		"city_code" : "MAL",
+		"city_name" : "MANGOLEARPT",
+		"state" : "INDONESIA"
+	},
+	{
+		"city_code" : "MDE",
+		"city_name" : "MEDELLIN",
+		"state" : "COLOMBIA"
+	},
+	{
+		"city_code" : "MEX",
+		"city_name" : "JUAREZINTL",
+		"state" : "MEXICOCITY"
+	},
+	{
+		"city_code" : "LHR",
+		"city_name" : "MIDDLESEX",
+		"state" : "ENGLAND"
+	},
+	{
+		"city_code" : "NBO",
+		"city_name" : "NAIROBI",
+		"state" : "KENYA"
+	},
+	{
+		"city_code" : "NAS",
+		"city_name" : "NASSAU",
+		"state" : "BAHAMAS"
+	},
+	{
+		"city_code" : "NCA",
+		"city_name" : "NORTHCAICOS",
+		"state" : "TURK&CAIMAN"
+	},
+	{
+		"city_code" : "PTY",
+		"city_name" : "OMARTORRIJOS",
+		"state" : "PANAMA"
+	},
+	{
+		"city_code" : "SPV",
+		"city_name" : "PAPUA",
+		"state" : "NEWGUINEA"
+	},
+	{
+		"city_code" : "UIO",
+		"city_name" : "QUITO(MARISCALSUCR)",
+		"state" : "ECUADOR"
+	},
+	{
+		"city_code" : "RIT",
+		"city_name" : "ROME",
+		"state" : "ITALY"
+	},
+	{
+		"city_code" : "SNO",
+		"city_name" : "SAKONNAKHON#ARPT",
+		"state" : "THAILAND"
+	},
+	{
+		"city_code" : "SLP",
+		"city_name" : "SANLUISPOTOSI#ARPT",
+		"state" : "MEXICO"
+	},
+	{
+		"city_code" : "SAN",
+		"city_name" : "SANSALVADOR",
+		"state" : "ELSALVADOR"
+	},
+	{
+		"city_code" : "SRO",
+		"city_name" : "SANTANARAMOS#ARPT",
+		"state" : "COLOMBIA"
+	},
+	{
+		"city_code" : "GRU",
+		"city_name" : "GUARULHOSINTL",
+		"state" : "SAOPAULO"
+	},
+	{
+		"city_code" : "SHA",
+		"city_name" : "SHANNON",
+		"state" : "IRELAND"
+	},
+	{
+		"city_code" : "HIL",
+		"city_name" : "SHILLAVO",
+		"state" : "ETHIOPIA"
+	},
+	{
+		"city_code" : "ISP",
+		"city_name" : "Collapsed(FOK)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "JSJ",
+		"city_name" : "Collapsed(SAJ)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "BUS",
+		"city_name" : "Collapsed(BUF)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "IAG",
+		"city_name" : "Collapsed(NIA)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "PHN",
+		"city_name" : "Collapsed(PHU)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "STN",
+		"city_name" : "Collapsed(STR)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "VMB",
+		"city_name" : "Collapsed(VNB)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "T01",
+		"city_name" : "Collapsed(SEA)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "SNP",
+		"city_name" : "ST.PAULISLAND",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "WRA",
+		"city_name" : "WRANGELL",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "HSV",
+		"city_name" : "MADISONCOUNTY-HUNTSVILLE",
+		"state" : "AL"
+	},
+	{
+		"city_code" : "MOB",
+		"city_name" : "MOBILE",
+		"state" : "AL"
+	},
+	{
+		"city_code" : "ROG",
+		"city_name" : "ROGERSARPT",
+		"state" : "AR"
+	},
+	{
+		"city_code" : "DOU",
+		"city_name" : "DOUGLAS",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "LUK",
+		"city_name" : "LUKEVILLE",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "MAP",
+		"city_name" : "MARIPOSAAZ",
+		"state" : null
+	},
+	{
+		"city_code" : "NAC",
+		"city_name" : "NACO",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "NOG",
+		"city_name" : "NOGALES",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "PHO",
+		"city_name" : "PHOENIX",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "POR",
+		"city_name" : "PORTAL",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "SLU",
+		"city_name" : "SANLUIS",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "SAS",
+		"city_name" : "SASABE",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "TUC",
+		"city_name" : "TUCSON",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "YUI",
+		"city_name" : "YUMA",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "AND",
+		"city_name" : "ANDRADE",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "BUR",
+		"city_name" : "BURBANK",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "CAL",
+		"city_name" : "CALEXICO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "CAO",
+		"city_name" : "CAMPO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SHR",
+		"city_name" : "SHERWOOD",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "SJO",
+		"city_name" : "STJOHN",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "WAL",
+		"city_name" : "WALHALLA",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "PSM",
+		"city_name" : "PORTSMOUTH",
+		"state" : "NH"
+	},
+	{
+		"city_code" : "BYO",
+		"city_name" : "BAYONNE",
+		"state" : "NJ"
+	},
+	{
+		"city_code" : "CNJ",
+		"city_name" : "CAMDEN",
+		"state" : "NJ"
+	},
+	{
+		"city_code" : "HOB",
+		"city_name" : "HOBOKEN",
+		"state" : "NJ"
+	},
+	{
+		"city_code" : "JER",
+		"city_name" : "JERSEYCITY",
+		"state" : "NJ"
+	},
+	{
+		"city_code" : "WRI",
+		"city_name" : "MCGUIREAFB-WRIGHTSOWN",
+		"state" : "NJ"
+	},
+	{
+		"city_code" : "MMU",
+		"city_name" : "MORRISTOWN",
+		"state" : "NJ"
+	},
+	{
+		"city_code" : "NEW",
+		"city_name" : "NEWARK\/TETERBORO",
+		"state" : "NJ"
+	},
+	{
+		"city_code" : "PER",
+		"city_name" : "PERTHAMBOY",
+		"state" : "NJ"
+	},
+	{
+		"city_code" : "ACY",
+		"city_name" : "POMONAFIELD-ATLANTICCITY",
+		"state" : "NJ"
+	},
+	{
+		"city_code" : "ABQ",
+		"city_name" : "ALBUQUERQUE",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "ANP",
+		"city_name" : "ANTELOPEWELLS",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "CRL",
+		"city_name" : "CARLSBAD",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "COL",
+		"city_name" : "COLUMBUS",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "CDD",
+		"city_name" : "CRANELAKE-ST.LOUISCNTY",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "LAS",
+		"city_name" : "LASCRUCES",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "RUI",
+		"city_name" : "RUIDOSO",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "STR",
+		"city_name" : "SANTATERESA",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "RNO",
+		"city_name" : "CANNONINTL-RENO\/TAHOE",
+		"state" : "NV"
+	},
+	{
+		"city_code" : "FLX",
+		"city_name" : "FALLONMUNICIPALAIRPORT",
+		"state" : "NV"
+	},
+	{
+		"city_code" : "LVG",
+		"city_name" : "LASVEGAS",
+		"state" : "NV"
+	},
+	{
+		"city_code" : "REN",
+		"city_name" : "RENO",
+		"state" : "NV"
+	},
+	{
+		"city_code" : "ALB",
+		"city_name" : "ALBANY",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "SRL",
+		"city_name" : "STAURELIE",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "SPA",
+		"city_name" : "STPAMPILE",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "VNB",
+		"city_name" : "VANBUREN",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "ALA",
+		"city_name" : "ALAMAGORDO",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "DNM",
+		"city_name" : "DEMING",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "LOB",
+		"city_name" : "LORDSBURG",
+		"state" : "NM"
+	},
+	{
+		"city_code" : "PON",
+		"city_name" : "PONCE",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "PSE",
+		"city_name" : "PONCE-MERCEDITA",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "SAJ",
+		"city_name" : "SANJUAN",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "VQS",
+		"city_name" : "VIEQUES-ARPT",
+		"state" : "PR"
+	},
+	{
+		"city_code" : "PRO",
+		"city_name" : "PROVIDENCE",
+		"state" : "RI"
+	},
+	{
+		"city_code" : "PVD",
+		"city_name" : "THEODOREFRANCIS-WARWICK",
+		"state" : "RI"
+	},
+	{
+		"city_code" : "CHL",
+		"city_name" : "CHARLESTON",
+		"state" : "SC"
+	},
+	{
+		"city_code" : "GEO",
+		"city_name" : "GEORGETOWN",
+		"state" : "SC"
+	},
+	{
+		"city_code" : "GSP",
+		"city_name" : "GREENVILLE",
+		"state" : "SC"
+	},
+	{
+		"city_code" : "GRR",
+		"city_name" : "GREER",
+		"state" : "SC"
+	},
+	{
+		"city_code" : "MYR",
+		"city_name" : "MYRTLEBEACH",
+		"state" : "SC"
+	},
+	{
+		"city_code" : "SPF",
+		"city_name" : "BLACKHILLS",
+		"state" : "SPEARFISH"
+	},
+	{
+		"city_code" : "HON",
+		"city_name" : "HOWESREGIONALARPT-HURON",
+		"state" : "SD"
+	},
+	{
+		"city_code" : "SAI",
+		"city_name" : "SAIPAN",
+		"state" : "SPN"
+	},
+	{
+		"city_code" : "TYS",
+		"city_name" : "MCGHEETYSON-ALCOA",
+		"state" : "TN"
+	},
+	{
+		"city_code" : "MEM",
+		"city_name" : "MEMPHIS",
+		"state" : "TN"
+	},
+	{
+		"city_code" : "NSV",
+		"city_name" : "NASHVILLE",
+		"state" : "TN"
+	},
+	{
+		"city_code" : "TRI",
+		"city_name" : "TRICITYARPT",
+		"state" : "TN"
+	},
+	{
+		"city_code" : "ADS",
+		"city_name" : "ADDISONAIRPORT-ADDISON",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "ADT",
+		"city_name" : "AMISTADDAM",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "ANZ",
+		"city_name" : "ANZALDUAS",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "AUS",
+		"city_name" : "AUSTIN",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "BEA",
+		"city_name" : "BEAUMONT",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "SCC",
+		"city_name" : "BPSPECCOORD.CTR",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "BTC",
+		"city_name" : "BPTACTICALUNIT",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "DAL",
+		"city_name" : "DALLAS",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "CAE",
+		"city_name" : "COLUMBIA",
+		"state" : "SC"
+	},
+	{
+		"city_code" : "BBP",
+		"city_name" : "BIGBENDPARK",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "SWB",
+		"city_name" : "SWANTON",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "MOR",
+		"city_name" : "MORSESLINE",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "NPV",
+		"city_name" : "NEWPORT",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "NRT",
+		"city_name" : "NORTHTROY",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "NRN",
+		"city_name" : "NORTON",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "PIV",
+		"city_name" : "PINNACLEROAD",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "RIF",
+		"city_name" : "RICHFORT",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "STA",
+		"city_name" : "STALBANS",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "WBE",
+		"city_name" : "WESTBERKSHIRE",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "ABE",
+		"city_name" : "ABERDEEN",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "ANA",
+		"city_name" : "ANACORTES",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "BEL",
+		"city_name" : "BELLINGHAM",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "AGN",
+		"city_name" : "ALGONAC",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "BLI",
+		"city_name" : "BELLINGHAM",
+		"state" : "WASHINGTON#INTL"
+	},
+	{
+		"city_code" : "EVE",
+		"city_name" : "EVERETT",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "FER",
+		"city_name" : "FERRY",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "FRI",
+		"city_name" : "FRIDAYHARBOR",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "TOK",
+		"city_name" : "TOROKINA#ARPT",
+		"state" : "PAPUA"
+	},
+	{
+		"city_code" : "VER",
+		"city_name" : "VERACRUZ",
+		"state" : "MEXICO"
+	},
+	{
+		"city_code" : "LGW",
+		"city_name" : "WESTSUSSEX",
+		"state" : "ENGLAND"
+	},
+	{
+		"city_code" : "ZZZ",
+		"city_name" : "MEXICOLand(BancodeMexico)",
+		"state" : null
+	},
+	{
+		"city_code" : "CNC",
+		"city_name" : "CANNONCORNERS",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "MAA",
+		"city_name" : "AbuDhabi",
+		"state" : null
+	},
+	{
+		"city_code" : "AG0",
+		"city_name" : "MAGNOLIA",
+		"state" : "AR"
+	},
+	{
+		"city_code" : "BHM",
+		"city_name" : "BARHARBOR",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "BHX",
+		"city_name" : "BIRMINGHAM",
+		"state" : "AL"
+	},
+	{
+		"city_code" : "CAK",
+		"city_name" : "AKRON",
+		"state" : "OH"
+	},
+	{
+		"city_code" : "FOK",
+		"city_name" : "SUFFOLKCOUNTY",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "LND",
+		"city_name" : "LANDER",
+		"state" : "WY"
+	},
+	{
+		"city_code" : "MAR",
+		"city_name" : "MARFA",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "MLI",
+		"city_name" : "MOLINE",
+		"state" : "IL"
+	},
+	{
+		"city_code" : "RIV",
+		"city_name" : "RIVERSIDE",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "RME",
+		"city_name" : "ROME",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "VNY",
+		"city_name" : "VANNUYS",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "YUM",
+		"city_name" : "YUMA",
+		"state" : "AZ"
+	},
+	{
+		"city_code" : "FRG",
+		"city_name" : "Collapsed(FOK)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "HRL",
+		"city_name" : "Collapsed(HLG)06\/15",
+		"state" : null
+	},
+	{
+		"city_code" : "CUR",
+		"city_name" : "CURLEW",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "SLS",
+		"city_name" : "SALINAS",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SLI",
+		"city_name" : "SANLUISOBISPO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "STO",
+		"city_name" : "STOCKTON",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "ASE",
+		"city_name" : "ASPEN",
+		"state" : "CO"
+	},
+	{
+		"city_code" : "FRE",
+		"city_name" : "FRESNO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "ICP",
+		"city_name" : "IMPERIALCOUNTY",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "LNB",
+		"city_name" : "LONGBEACH",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "BLA",
+		"city_name" : "BLAINE",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "BWA",
+		"city_name" : "BOUNDARY",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "DVL",
+		"city_name" : "DANVILLE",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "LOS",
+		"city_name" : "LOSANGELES",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "BFL",
+		"city_name" : "MEADOWSFIELD-BAKERSFIELD",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "OAK",
+		"city_name" : "OAKLAND",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "ONT",
+		"city_name" : "ONTARIO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "OTM",
+		"city_name" : "OTAYMESA",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "BLT",
+		"city_name" : "PACIFIC",
+		"state" : "HWY.STATION"
+	},
+	{
+		"city_code" : "PSP",
+		"city_name" : "PALMSPRINGS",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SAC",
+		"city_name" : "SACRAMENTO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SDP",
+		"city_name" : "SANDIEGO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SFR",
+		"city_name" : "SANFRANCISCO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SNJ",
+		"city_name" : "SANJOSE",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SLO",
+		"city_name" : "SANLUISOBISPO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SPC",
+		"city_name" : "SANPEDRO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SYS",
+		"city_name" : "SANYSIDRO",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "SAA",
+		"city_name" : "SANTAANA",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "TEC",
+		"city_name" : "TECATE",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "TRV",
+		"city_name" : "TRAVIS-AFB",
+		"state" : "CA"
+	},
+	{
+		"city_code" : "APA",
+		"city_name" : "ARAPAHOECOUNTY",
+		"state" : "CO"
+	},
+	{
+		"city_code" : "COS",
+		"city_name" : "COLORADOSPRINGS",
+		"state" : "CO"
+	},
+	{
+		"city_code" : "DEN",
+		"city_name" : "DENVER",
+		"state" : "CO"
+	},
+	{
+		"city_code" : "DRO",
+		"city_name" : "LAPLATA-DURANGO",
+		"state" : "CO"
+	},
+	{
+		"city_code" : "BDL",
+		"city_name" : "BRADLEYINTERNATIONAL",
+		"state" : "CT"
+	},
+	{
+		"city_code" : "BGC",
+		"city_name" : "BRIDGEPORT",
+		"state" : "CT"
+	},
+	{
+		"city_code" : "GRT",
+		"city_name" : "GROTON",
+		"state" : "CT"
+	},
+	{
+		"city_code" : "HAR",
+		"city_name" : "HARTFORD",
+		"state" : "CT"
+	},
+	{
+		"city_code" : "NWH",
+		"city_name" : "NEWHAVEN",
+		"state" : "CT"
+	},
+	{
+		"city_code" : "NWL",
+		"city_name" : "NEWLONDON",
+		"state" : "CT"
+	},
+	{
+		"city_code" : "TST",
+		"city_name" : "NEWINGTONDATACENTERTEST",
+		"state" : "CT"
+	},
+	{
+		"city_code" : "DOV",
+		"city_name" : "DOVERAFB",
+		"state" : "DE"
+	},
+	{
+		"city_code" : "DVD",
+		"city_name" : "DOVER-AFB",
+		"state" : "DE"
+	},
+	{
+		"city_code" : "WLL",
+		"city_name" : "WILMINGTON",
+		"state" : "DE"
+	},
+	{
+		"city_code" : "BOC",
+		"city_name" : "BOCAGRANDE",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "SRQ",
+		"city_name" : "BRADENTON-SARASOTA",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "MLB",
+		"city_name" : "MELBOURNE",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "CAN",
+		"city_name" : "CAPECANAVERAL",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "DAB",
+		"city_name" : "DAYTONABEACHINTERNATIONAL",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "FRN",
+		"city_name" : "FERNANDINA",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "FTL",
+		"city_name" : "FORTLAUDERDALE",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "FMY",
+		"city_name" : "FORTMYERS",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "FPF",
+		"city_name" : "FORTPIERCE",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "HUR",
+		"city_name" : "HURLBURTFIELD",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "GNV",
+		"city_name" : "JRALISONMUNI-GAINESVILLE",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "JAC",
+		"city_name" : "JACKSONVILLE",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "KEY",
+		"city_name" : "KEYWEST",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "LEE",
+		"city_name" : "LEESBURGMUNICIPALAIRPORT",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "MIA",
+		"city_name" : "MIAMI",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "OPF",
+		"city_name" : "OPALOCKA",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "ORL",
+		"city_name" : "ORLANDO",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "PAN",
+		"city_name" : "PANAMACITY",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "PEN",
+		"city_name" : "PENSACOLA",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "PCF",
+		"city_name" : "PORTCANAVERAL",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "PEV",
+		"city_name" : "PORTEVERGLADES",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "HOM",
+		"city_name" : "HOMER",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "HYD",
+		"city_name" : "HYDER",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "JUN",
+		"city_name" : "JUNEAU",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "5KE",
+		"city_name" : "KETCHIKAN",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "KET",
+		"city_name" : "KETCHIKAN",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "MOS",
+		"city_name" : "MOSESPOINTINTERMEDIATE",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "NIK",
+		"city_name" : "NIKISKI",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "NOM",
+		"city_name" : "NOM",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "PKC",
+		"city_name" : "POKERCREEK",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "ORI",
+		"city_name" : "PORTLIONSSPB",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "SKA",
+		"city_name" : "SKAGWAY",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "TKI",
+		"city_name" : "TOKEEN",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "ALP",
+		"city_name" : "ALPENA",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "BCY",
+		"city_name" : "BAYCITY",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "DET",
+		"city_name" : "DETROIT",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "GRP",
+		"city_name" : "GRANDRAPIDS",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "GRO",
+		"city_name" : "GROSSEISLE",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "ISL",
+		"city_name" : "ISLEROYALE",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "MRC",
+		"city_name" : "MARINECITY",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "MRY",
+		"city_name" : "MARYSVILLE",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "PTK",
+		"city_name" : "OAKLANDCOUNTY-PONTIAC",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "PHU",
+		"city_name" : "PORTHURON",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "RBT",
+		"city_name" : "ROBERTSLANDING",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "SAG",
+		"city_name" : "SAGINAW",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "SSM",
+		"city_name" : "SAULTSTE.MARIE",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "SCL",
+		"city_name" : "STCLAIR",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "YIP",
+		"city_name" : "WILLOWRUN-YPSILANTI",
+		"state" : "MI"
+	},
+	{
+		"city_code" : "BAU",
+		"city_name" : "BAUDETTE",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "CAR",
+		"city_name" : "CARIBOUMUNICIPALAIRPORT",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "GTF",
+		"city_name" : "CollapsedintoINT",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "INL",
+		"city_name" : "CollapsedintoINT",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "CRA",
+		"city_name" : "CRANELAKE",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "MIC",
+		"city_name" : "CRYSTALMUNICIPALAIRPORT",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "DUL",
+		"city_name" : "DULUTH",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "ELY",
+		"city_name" : "ELY",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "GPM",
+		"city_name" : "GRANDPORTAGE",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "SVC",
+		"city_name" : "GRANTCOUNTY-SILVERCITY",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "INT",
+		"city_name" : "INTLFALLS",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "LAN",
+		"city_name" : "LANCASTER",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "MSP",
+		"city_name" : "MINN.\/STPAUL",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "LIN",
+		"city_name" : "NORTHERNSVCCENTER",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "NOY",
+		"city_name" : "NOYES",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "PIN",
+		"city_name" : "PINECREEK",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "48Y",
+		"city_name" : "PINECREEKBORDERARPT",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "RAN",
+		"city_name" : "RAINER",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "RST",
+		"city_name" : "ROCHESTER",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "ROS",
+		"city_name" : "ROSEAU",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "SPM",
+		"city_name" : "STPAUL",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "WSB",
+		"city_name" : "WARROADINTL",
+		"state" : "SPB"
+	},
+	{
+		"city_code" : "WAR",
+		"city_name" : "WARROAD",
+		"state" : "MN"
+	},
+	{
+		"city_code" : "KAN",
+		"city_name" : "KANSASCITY",
+		"state" : "MO"
+	},
+	{
+		"city_code" : "SGF",
+		"city_name" : "SPRINGFIELD-BRANSON",
+		"state" : "MO"
+	},
+	{
+		"city_code" : "STL",
+		"city_name" : "STLOUIS",
+		"state" : "MO"
+	},
+	{
+		"city_code" : "WHI",
+		"city_name" : "WHITETAIL",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "WHM",
+		"city_name" : "WILDHORSE",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "GPT",
+		"city_name" : "BILOXIREGIONAL",
+		"state" : "MS"
+	},
+	{
+		"city_code" : "GTR",
+		"city_name" : "GOLDENTRIANGLELOWNDESCNTY",
+		"state" : "MS"
+	},
+	{
+		"city_code" : "GUL",
+		"city_name" : "GULFPORT",
+		"state" : "MS"
+	},
+	{
+		"city_code" : "PAS",
+		"city_name" : "PASCAGOULA",
+		"state" : "MS"
+	},
+	{
+		"city_code" : "JAN",
+		"city_name" : "THOMPSONFIELD-JACKSON",
+		"state" : "MS"
+	},
+	{
+		"city_code" : "BIL",
+		"city_name" : "BILLINGS",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "BTM",
+		"city_name" : "BUTTE",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "CHF",
+		"city_name" : "CHIEFMT",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "CTB",
+		"city_name" : "CUTBANKMUNICIPAL",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "CUT",
+		"city_name" : "CUTBANK",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "DLB",
+		"city_name" : "DELBONITA",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "BZN",
+		"city_name" : "GALLATINFIELD-BOZEMAN",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "FCA",
+		"city_name" : "GLACIERNATIONALPARK",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "GGW",
+		"city_name" : "GLASGOW",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "GRE",
+		"city_name" : "GREATFALLS",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "APF",
+		"city_name" : "NAPLES",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "PSJ",
+		"city_name" : "PORTSTJOE",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "SFB",
+		"city_name" : "SANFORD",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "SGJ",
+		"city_name" : "STAUGUSTINEARPT",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "SAU",
+		"city_name" : "STAUGUSTINE",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "FPR",
+		"city_name" : "STLUCIECOUNTY",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "SPE",
+		"city_name" : "STPETERSBURG",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "TAM",
+		"city_name" : "TAMPA",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "WPB",
+		"city_name" : "WESTPALMBEACH",
+		"state" : "FL"
+	},
+	{
+		"city_code" : "ATL",
+		"city_name" : "ATLANTA",
+		"state" : "GA"
+	},
+	{
+		"city_code" : "BRU",
+		"city_name" : "BRUNSWICK",
+		"state" : "GA"
+	},
+	{
+		"city_code" : "AGS",
+		"city_name" : "BUSHFIELD-AUGUSTA",
+		"state" : "GA"
+	},
+	{
+		"city_code" : "SAV",
+		"city_name" : "SAVANNAH",
+		"state" : "GA"
+	},
+	{
+		"city_code" : "AGA",
+		"city_name" : "AGANA",
+		"state" : "GU"
+	},
+	{
+		"city_code" : "HHW",
+		"city_name" : "HONOLULU",
+		"state" : "HI"
+	},
+	{
+		"city_code" : "OGG",
+		"city_name" : "KAHULUI-MAUI",
+		"state" : "HI"
+	},
+	{
+		"city_code" : "KOA",
+		"city_name" : "KEAHOLE-KONA",
+		"state" : "HI"
+	},
+	{
+		"city_code" : "LIH",
+		"city_name" : "LIHUE",
+		"state" : "HI"
+	},
+	{
+		"city_code" : "CID",
+		"city_name" : "CEDARRAPIDS\/IOWACITY",
+		"state" : "IA"
+	},
+	{
+		"city_code" : "DSM",
+		"city_name" : "DESMOINES",
+		"state" : "IA"
+	},
+	{
+		"city_code" : "BOI",
+		"city_name" : "AIRTERM.(GOWENFLD)BOISE",
+		"state" : "ID"
+	},
+	{
+		"city_code" : "EPI",
+		"city_name" : "EASTPORT",
+		"state" : "ID"
+	},
+	{
+		"city_code" : "IDA",
+		"city_name" : "FANNINGFIELD-IDAHOFALLS",
+		"state" : "ID"
+	},
+	{
+		"city_code" : "PTL",
+		"city_name" : "PORTHILL",
+		"state" : "ID"
+	},
+	{
+		"city_code" : "SPI",
+		"city_name" : "CAPITAL-SPRINGFIELD",
+		"state" : "IL"
+	},
+	{
+		"city_code" : "CHI",
+		"city_name" : "CHICAGO",
+		"state" : "IL"
+	},
+	{
+		"city_code" : "DPA",
+		"city_name" : "DUPAGECOUNTY",
+		"state" : "IL"
+	},
+	{
+		"city_code" : "ALC",
+		"city_name" : "ALCAN",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "ANC",
+		"city_name" : "ANCHORAGE",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "BAR",
+		"city_name" : "BAKERAAF-BAKERISLAND",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "HVR",
+		"city_name" : "HAVRE",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "HEL",
+		"city_name" : "HELENA",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "LWT",
+		"city_name" : "LEWISTON",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "MGM",
+		"city_name" : "MORGAN",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "OPH",
+		"city_name" : "OPHEIM",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "PIE",
+		"city_name" : "PIEGAN",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "RAY",
+		"city_name" : "RAYMOND",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "ROO",
+		"city_name" : "ROOSVILLE",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "SCO",
+		"city_name" : "SCOBEY",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "SWE",
+		"city_name" : "SWEETGTASS",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "TRL",
+		"city_name" : "TRIALCREEK",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "TUR",
+		"city_name" : "TURNER",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "WCM",
+		"city_name" : "WILLOWCREEK",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "CLT",
+		"city_name" : "CHARLOTTE",
+		"state" : "NC"
+	},
+	{
+		"city_code" : "FAY",
+		"city_name" : "FAYETTEVILLE",
+		"state" : "NC"
+	},
+	{
+		"city_code" : "MRH",
+		"city_name" : "MOREHEADCITY",
+		"state" : "NC"
+	},
+	{
+		"city_code" : "FOP",
+		"city_name" : "MORRISFIELDSAAF",
+		"state" : "NC"
+	},
+	{
+		"city_code" : "GSO",
+		"city_name" : "PIEDMONTTRIADINTLAIRPORT",
+		"state" : "NC"
+	},
+	{
+		"city_code" : "RDU",
+		"city_name" : "RALEIGH\/DURHAM",
+		"state" : "NC"
+	},
+	{
+		"city_code" : "SSC",
+		"city_name" : "SHAWAFB-SUMTER",
+		"state" : "NC"
+	},
+	{
+		"city_code" : "WIL",
+		"city_name" : "WILMINGTON",
+		"state" : "NC"
+	},
+	{
+		"city_code" : "AMB",
+		"city_name" : "AMBROSE",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "ANT",
+		"city_name" : "ANTLER",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "CRY",
+		"city_name" : "CARBURY",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "DNS",
+		"city_name" : "DUNSEITH",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "FAR",
+		"city_name" : "FARGO",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "FRT",
+		"city_name" : "FORTUNA",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "GRF",
+		"city_name" : "GRANDFORKS",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "HNN",
+		"city_name" : "HANNAH",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "HNS",
+		"city_name" : "HANSBORO",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "MAI",
+		"city_name" : "MAIDA",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "MND",
+		"city_name" : "MINOT",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "NEC",
+		"city_name" : "NECHE",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "NOO",
+		"city_name" : "NOONAN",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "NRG",
+		"city_name" : "NORTHGATE",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "PEM",
+		"city_name" : "PEMBINA",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "SAR",
+		"city_name" : "SARLES",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "MRS",
+		"city_name" : "MARFA",
+		"state" : "TX"
+	},
+	{
+		"city_code" : "PIA",
+		"city_name" : "GREATERPEORIA",
+		"state" : "IL"
+	},
+	{
+		"city_code" : "RFD",
+		"city_name" : "GREATERROCKFORD",
+		"state" : "IL"
+	},
+	{
+		"city_code" : "UGN",
+		"city_name" : "MEMORIAL-WAUKEGAN",
+		"state" : "IL"
+	},
+	{
+		"city_code" : "GAR",
+		"city_name" : "GARY",
+		"state" : "IN"
+	},
+	{
+		"city_code" : "HMM",
+		"city_name" : "HAMMOND",
+		"state" : "IN"
+	},
+	{
+		"city_code" : "INP",
+		"city_name" : "INDIANAPOLIS",
+		"state" : "IN"
+	},
+	{
+		"city_code" : "MRL",
+		"city_name" : "MERRILLVILLE",
+		"state" : "IN"
+	},
+	{
+		"city_code" : "SBN",
+		"city_name" : "SOUTHBEND",
+		"state" : "IN"
+	},
+	{
+		"city_code" : "ICT",
+		"city_name" : "MID-CONTINENT-WITCHITA",
+		"state" : "KS"
+	},
+	{
+		"city_code" : "LEX",
+		"city_name" : "BLUEGRASS-LEXINGTON",
+		"state" : "KY"
+	},
+	{
+		"city_code" : "LOU",
+		"city_name" : "LOUISVILLE",
+		"state" : "KY"
+	},
+	{
+		"city_code" : "BTN",
+		"city_name" : "BATONROUGE",
+		"state" : "LA"
+	},
+	{
+		"city_code" : "LKC",
+		"city_name" : "LAKECHARLES",
+		"state" : "LA"
+	},
+	{
+		"city_code" : "MLU",
+		"city_name" : "MONROE",
+		"state" : "LA"
+	},
+	{
+		"city_code" : "MGC",
+		"city_name" : "MORGANCITY",
+		"state" : "LA"
+	},
+	{
+		"city_code" : "NOL",
+		"city_name" : "NEWORLEANS",
+		"state" : "LA"
+	},
+	{
+		"city_code" : "BOS",
+		"city_name" : "BOSTON",
+		"state" : "MA"
+	},
+	{
+		"city_code" : "GLO",
+		"city_name" : "GLOUCESTER",
+		"state" : "MA"
+	},
+	{
+		"city_code" : "BED",
+		"city_name" : "HANSCOMFIELD-BEDFORD",
+		"state" : "MA"
+	},
+	{
+		"city_code" : "LYN",
+		"city_name" : "LYNDEN",
+		"state" : "WA"
+	},
+	{
+		"city_code" : "ADW",
+		"city_name" : "ANDREWSAFB",
+		"state" : "MD"
+	},
+	{
+		"city_code" : "BAL",
+		"city_name" : "BALTIMORE",
+		"state" : "MD"
+	},
+	{
+		"city_code" : "MKG",
+		"city_name" : "MUSKEGON",
+		"state" : "MD"
+	},
+	{
+		"city_code" : "PAX",
+		"city_name" : "PATUXENTRIVER",
+		"state" : "MD"
+	},
+	{
+		"city_code" : "BGM",
+		"city_name" : "BANGOR",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "BOO",
+		"city_name" : "BOOTHBAYHARBOR",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "BWM",
+		"city_name" : "BRIDGEWATER",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "BCK",
+		"city_name" : "BUCKPORT",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "CLS",
+		"city_name" : "CALAIS",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "CRB",
+		"city_name" : "CARIBOU",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "COB",
+		"city_name" : "COBURNGORE",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "EST",
+		"city_name" : "EASTCOURT",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "EPT",
+		"city_name" : "EASTPORTMUNICIPAL",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "EPM",
+		"city_name" : "EASTPORT",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "FOR",
+		"city_name" : "FORESTCITY",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "FTF",
+		"city_name" : "FORTFAIRFIELD",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "FTK",
+		"city_name" : "FORTKENT",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "HML",
+		"city_name" : "HAMIIN",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "HTM",
+		"city_name" : "HOULTON",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "JKM",
+		"city_name" : "JACKMAN",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "KAL",
+		"city_name" : "KALISPEL",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "LIM",
+		"city_name" : "LIMESTONE",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "LUB",
+		"city_name" : "LUBEC",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "MAD",
+		"city_name" : "MADAWASKA",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "POM",
+		"city_name" : "PORTLAND",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "SBR",
+		"city_name" : "SOUTHBREWER",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "WHO",
+		"city_name" : "WESTHOPE",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "WND",
+		"city_name" : "WILLISTON",
+		"state" : "ND"
+	},
+	{
+		"city_code" : "OMA",
+		"city_name" : "OMAHA",
+		"state" : "NE"
+	},
+	{
+		"city_code" : "LEB",
+		"city_name" : "LEBANON",
+		"state" : "NH"
+	},
+	{
+		"city_code" : "MHT",
+		"city_name" : "MANCHESTER",
+		"state" : "NH"
+	},
+	{
+		"city_code" : "PNH",
+		"city_name" : "PITTSBURG",
+		"state" : "NH"
+	},
+	{
+		"city_code" : "ROC",
+		"city_name" : "ROCHESTER",
+		"state" : "NY"
+	},
+	{
+		"city_code" : "WAS",
+		"city_name" : "WASHINGTON DC",
+		"state" : "DC"
+	},
+	{
+		"city_code" : "HEF",
+		"city_name" : "MANASSAS",
+		"state" : "VA"
+	},
+	{
+		"city_code" : "DER",
+		"city_name" : "DERBYLINE",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "DLV",
+		"city_name" : "DERBYLINE",
+		"state" : "VT"
+	},
+	{
+		"city_code" : "CRQ",
+		"city_name" : "CARAVELAS",
+		"state" : "BA"
+	},
+	{
+		"city_code" : "LIA",
+		"city_name" : "LITTLEROCK",
+		"state" : "AR"
+	},
+	{
+		"city_code" : "EUR",
+		"city_name" : "EUREKA",
+		"state" : "MT"
+	},
+	{
+		"city_code" : "LAK",
+		"city_name" : "LAKECHARLES",
+		"state" : "LA"
+	},
+	{
+		"city_code" : "RGM",
+		"city_name" : "RANGELEY",
+		"state" : "ME"
+	},
+	{
+		"city_code" : "DAC",
+		"city_name" : "DALTONSCACHE",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "PIZ",
+		"city_name" : "DEWSTATIONPTLAYDEW",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "DTH",
+		"city_name" : "DUTCHHARBOR",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "EGL",
+		"city_name" : "EAGLE",
+		"state" : "AK"
+	},
+	{
+		"city_code" : "FRB",
+		"city_name" : "FAIRBANKS",
+		"state" : "AK"
+	}
+]

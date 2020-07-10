@@ -3,7 +3,7 @@
 
 U.S. customs and border protection have large amounts of data around immigration  into United states. They’d want to be able analyse this data and find answers to some questions around this data. 
 
-The purpose of this project is to process & persist the USA immigration data, made available by U.S. customs and border protection. Data available is about the immigrants coming through to USA at various ports of entry. The goal of the project is to gather this data, clean the data wherever necessary, enrich it and process data into an analytical database with a data pipeline. 
+The purpose of this project is to process & persist into an easily queryable analytical database the USA immigration data, made available by U.S. customs and border protection. Data available is about the immigrants coming through to USA at various ports of entry. The goal of the project is to gather this data, clean the data wherever necessary, enrich it and process data into an analytical database with a data pipeline. 
 
 ### Questions the database is built to answer:
 
@@ -195,7 +195,7 @@ Only a subset of available fields used & columns renamed.
 
 **Data model diagram:**
 
-
+![alt text](images/capstone_design.png "Capstone data model")
 
 ### Data Pipeline
 
@@ -208,3 +208,35 @@ There are 3 tasks in the pipeline
 * load_dimension_data: This task loads the parquet files for dimension tables, namely, "country" "state" "airlines" "city" & "airports". Data definition for these are provided above. 
 * load_immigration_fact_data: This task loads the Fact table, immigration_data. Appropriate raw data file is picked up based on the execution date of the task.
 * check_data_quality: This task is built to check if the data is processed as designed.
+
+**Python files & data:**
+
+* process_immigration_data.py: This is the main DAG file, which defines the tasks, sets up the sequencing & scheduling for the tasks. This file is in the airflow/dags folder.
+* process_dimensions.py: This python defines the class for ProcessDimensionsOperator, which processes and saves all the dimension tables. This file is in airflow/plugins/operators
+* process_immigration_fact.py: This python defines the class for ProcessImmigrantOperator, which processes the montly immigration data sas file.
+* raw_data: This folder contains all the raw data for dimensions & fact. The code is built to look for fact data under raw_data/immigration_data/<year_name> folder. For e.g. raw_data/immigration_data/2016 which would hold up to 12 files, one per each month in the year.
+
+NOTE: The immigration_data sas file is not part of the repository, owing to the large size. 
+
+**Set up for Airflow:**
+
+Pipeline expects 3 variables to be set up on airflow. Following are the explanations. Once the airflow process is run, get on to the airflow UI, under admin->variables, add the following variables.
+
+* load_path: String specifying the path from which to raw data is sourced. For e.g. "/home/workspace/raw_data"
+* save_path: String specifying the path to which parquet files are saved.
+* dimensions_loaded: This needs to be set to 0 initially.
+
+Note: DAG is set up with a start_date of 1st January 2016 & an end_date of 1st February 2016. If the raw data for immigration is available at the appropriate location (see raw_data section above), the DAG will create a DAG run each for 2016 January & February as catchup is set to TRUE. End date (For e.g. to December 2016, which would create a total of 12 DAG runs) can be changed appropriately. Code is designed to ignore processing for immigration data if raw data is absent.
+
+**Choice of technology stack:**
+
+This implementation is built to create warehouse in terms of parquet files (Tables) on local disks. It would be fairly straightforward to change the implementation to save the data over cloud data lakes, like AMAZON S3. Alternatively, pipeline can be modified to save data to an on-prem RDBMS like postgres. Additional steps would be to create the tables and change the code to save data to postgres. Another option would be to create a star schema of tables on cloud based columnar analytical databases such as AMAZON Redshift. Transistion from postgres to Redshift should be smooth. Also, airflow provides hooks for S3, postgres & Redshift, which simplifies configuring & connecting to these endpoints.
+
+
+**What if requirements around the project changes:**
+
+* *Data was increased by 100x:*  Scaling to this size would require changes to the destination of data. As discussed earlier, obvious choices would be either S3 or Amazon redshift, as both of them offer easy scalability. Amazon Redshift also offers clustering and parallel data load, which can be utilized with smart partitioning of raw data. Spark also offers multi-node cluster option, which can be leveraged.
+
+* *The data populates a dashboard that must be updated on a daily basis by 7am every day:* There are 2 things that can be done here. Firstly, it is fairly easy to change the scheduling for DAGs on airflow to run everyday and populate the appropriate tables before 7am. In this case it can be set to run overnight. In general, dashboards utilize summarized datasets. If these datasets are fixed, another airlfow pipeline can be created which persists summarized datasets, either on S3 as files or as tables on Redshift.
+
+* *The database needed to be accessed by 100+ people:* With amazon redshift adding or removing nodes is fairly easy. Addition of nodes would handle additional workloads easily. If the workloads were to go down, number of nodes can be reduced to save on costs. If the S3 is chosen as the destination, replication can be used to replicate files to multiple different buckets, and users can be routed intelligently.

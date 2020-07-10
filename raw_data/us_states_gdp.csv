@@ -1,0 +1,57 @@
+id,state,GDP,percent_of_nation,gdp_per_capita,Region
+1, California ,3183251,14.6,80563,West
+2, Texas ,1918065,8.8,66149,South
+3, New York ,1751674,8.1,90043,Northeast
+4, Florida ,1111378,5.1,51745,South
+5, Illinois ,908913,4.2,71727,Midwest
+6, Pennsylvania ,824603,3.8,64412,Northeast
+7, Ohio ,706764,3.3,60464,Midwest
+8, New Jersey ,652412,3,73451,Northeast
+9, Georgia ,625329,2.9,58896,South
+10, Washington ,610488,2.8,80170,West
+11, Massachusetts ,604208,2.8,86942,Northeast
+12, North Carolina ,596383,2.7,56862,South
+13, Virginia ,561846,2.6,65824,South
+14, Michigan ,548567,2.5,54928,Midwest
+15, Maryland ,434312,2,71838,South
+16, Colorado ,396367,1.8,68828,West
+17, Minnesota ,385907,1.8,68427,Midwest
+18, Tennessee ,385741,1.8,56451,South
+19, Indiana ,381733,1.8,56702,Midwest
+20, Arizona ,372522,1.7,51179,West
+21, Wisconsin ,351922,1.6,60425,Midwest
+22, Missouri ,336816,1.6,54879,Midwest
+23, Connecticut ,288985,1.3,81055,Northeast
+24, Louisiana ,267051,1.2,57445,South
+25, Oregon ,255418,1.2,60558,West
+26, South Carolina ,249958,1.2,48547,South
+27, Alabama ,234054,1.1,47735,South
+28, Kentucky ,217564,1,48697,South
+29, Oklahoma ,207381,1,52409,South
+30, Iowa ,197172,0.9,62493,Midwest
+31, Utah ,192013,0.9,59892,West
+32, Nevada ,180406,0.8,58570,West
+33, Kansas ,175703,0.8,60310,Midwest
+34, District of Columbia ,148231,0.7,210033,South
+35, Arkansas ,135225,0.6,44808,South
+36, Nebraska ,129098,0.6,66737,Midwest
+37, Mississippi ,120429,0.6,40464,South
+38, New Mexico ,105263,0.5,50201,West
+39, Puerto Rico ,101131,0.48[A] ,31651,South[D]
+40, Hawaii ,98536,0.5,69593,West
+41, New Hampshire ,89836,0.4,66069,Northeast
+42, Idaho ,82265,0.4,46043,West
+43, West Virginia ,78507,0.4,43806,South
+44, Delaware ,76410,0.4,78468,South
+45, Maine ,68441,0.3,50915,Northeast
+46, Rhode Island ,64441,0.3,60830,Northeast
+47, North Dakota ,57400,0.3,75321,Midwest
+48, Alaska ,55759,0.3,76220,West
+49, South Dakota ,54057,0.3,61104,Midwest
+50, Montana ,52948,0.2,49540,West
+51, Wyoming ,39794,0.2,68757,West
+52, Vermont ,35271,0.2,56525,Northeast
+53, Guam ,5859,0.03[A] ,35665,West[C]
+54, U.S. Virgin Islands ,3855,0.02[A] ,36802,South[D]
+55, Northern Mariana Islands ,1593,0.007[A] ,28164,West[C]
+56, American Samoa ,634,0.003[A] ,11399,West[C]
