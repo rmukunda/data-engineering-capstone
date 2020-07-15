@@ -9,15 +9,15 @@ from airflow.operators import CapstoneDataQualityOperator
 from airflow.models import Variable
 
 
-
+#Defining the execution datetime of pipeline
 EXEC_DATE = "{{ ds }}"
 
+#reading the variables from airflow for paths to source & destination of data
 save_path = Variable.get("save_path")
 path_load = Variable.get("load_path")
 
-#log.info('Processing capstone data')
 
-
+#DAG is defined with start data of Jan 2016 with a monthly cadence
 default_args = {
     'owner': 'Mukunda',
     'start_date': datetime(2016, 1, 1),
@@ -41,7 +41,7 @@ dag = DAG('USA_immigration_data_pipeline',
 
 start_operator = DummyOperator(task_id='Begin_execution',  dag=dag)
 
-
+#Task for processing the dimension data
 proces_dimensions_operator = ProcessDimensionsOperator(
                             task_id = "load_dimension_data",
                             dag = dag,
@@ -50,6 +50,7 @@ proces_dimensions_operator = ProcessDimensionsOperator(
                             mode = "delete"
                             )
 
+#Task for processing the immigrant fact data
 process_fact_operator = ProcessImmigrantOperator(
                         task_id = "load_immigration_fact_data",
                         dag = dag,
@@ -59,6 +60,7 @@ process_fact_operator = ProcessImmigrantOperator(
                         provide_context = True
                         )
 
+#task to check the validity of processed data.
 check_data = CapstoneDataQualityOperator(
                             task_id = "check_data_quality",
                             dag = dag,
@@ -70,4 +72,5 @@ check_data = CapstoneDataQualityOperator(
 
 end_operator = DummyOperator(task_id='Stop_execution',  dag=dag)
 
+#defining the execution order for the tasks in the dag.
 start_operator >> proces_dimensions_operator >>  process_fact_operator >> check_data >> end_operator

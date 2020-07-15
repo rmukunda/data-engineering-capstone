@@ -5,7 +5,17 @@ U.S. customs and border protection have large amounts of data around immigration
 
 The purpose of this project is to process & persist into an easily queryable analytical database the USA immigration data, made available by U.S. customs and border protection. Data available is about the immigrants coming through to USA at various ports of entry. The goal of the project is to gather this data, clean the data wherever necessary, enrich it and process data into an analytical database with a data pipeline. 
 
-### Questions the database is built to answer:
+
+### Scope the Project and Gather Data:
+
+The idea behind the project is to gather the data that US Customs and Border protection is providing enrich it with additional sources, build a data pipeline which can be scheduled to run at a preset frequency and pesist data into an analytical database. For building the pipeline, Apache Airflow, which is a Python platform for Programmatically authoring, scheduling and monitoring workflows is used.
+
+**Choice of technology stack:**
+
+This implementation is built to create a datawarehouse materialized as parquet files (Tables) saved on local disks. It would be fairly straightforward to change the implementation to save the data on cloud data lakes, like AMAZON S3. Alternatively, pipeline can be modified to save data to an on-prem RDBMS like postgres. Additional steps would be to create the tables and change the code to save data to postgres. Another option would be to create a star schema of tables on cloud based columnar analytical databases such as AMAZON Redshift. As Amazon redshift is based on Postgres, changing the pipeline to push data on to Redshift would be easy. Also, airflow provides hooks for S3, postgres & Redshift, which simplifies configuring & connecting to these endpoints. Pipeline is built with Python and orchestrated using Apache Airflow platform.
+
+
+**Questions the database is built to answer:**
 
 Some of the questions the database is built to answer.
 
@@ -18,12 +28,20 @@ Some of the questions the database is built to answer.
     • Which airline ferries most immigrants
     • What is the composition of sexes among student immigrants?
     • Which states get more student travellers?
-    • Which states attract more pleasure visitors?
-    • Seasonal breakups for pleasure travellers.
+    • What's the breakup of visitors at airports?
 
-### Project in detail:
+
+     
+    
+
+To be able to answer questions like the ones above, apart from the immigration data itself, data about Airlines (sourced from the internet), Airports (sourced from internet), State (enriched with GDP related data sourced from internet, apart from that provided by the agency), Country (provided by the agency), City (using City data & temperature data provided by the agency) are used. 
+
+Data is organized into a Star schema analytical database, with Immigration data as the fact in the center, with Coutry, State, City, Airports & Airlines as the dimensions referenced in the fact.
+
 Project in its essence is an Apache Airflow data pipeline, built with Python. The pipeline is scheduled to run monthly and process data into parquet files. Data is laid out to form a star schema with one file each for dimensions & one partitioned file for the fact table.
 Following are the details of the dimension & Fact tables, their sources & metadata.
+
+##  Data model in detail
 
 **Airports:**
 
@@ -45,6 +63,10 @@ Table file : airports.parquet
 | type | string | Type of airport, small, large, heliport etc|
 
 *Internation air transport association
+
+Data choice:
+
+To enable ananlysis of immigration to specific airports. This data in conjunction with seasonality would enable the department to plan staffing. Also, provides details of airports.
 
 Data munging: 
 
@@ -69,6 +91,10 @@ Table file : airlines.parquet
 *Internation air transport association
 **International Civil Aviation organization
 
+Data choice:
+
+Airlines dimension is chosen, as it would enable analysis of numbers brought in by various airlines. This in conjunction with destination of travellers arriving from specific airlines could throwup intersting insights. Airline dimension provides more imformation about the airlines, which can be enriched further without major changes to the warehouse or the pipeline.
+
 Data munging:
 
 From the above link data in HTML Table is copied into an excel, exported as a CSV, imported into a Postgres table, only data with a valid iata_code is retained and exported out to csv for the eventual data load.
@@ -86,6 +112,10 @@ Table File: country.parquet
 | ----------- | ----------- | ----|
 | code | number | code for country used in I94|
 | country | string | name of country|
+
+Data choice:
+
+This is an obvious choice, as it would country details, especially useful in reports.
 
 Data munging:
 
@@ -108,6 +138,10 @@ Table File: state.parquet
 | state_per_capita_gdp | string | per capita gdp of the state|
 
 NOTE:  More information like Region the state falls in & Percentage GDP contribution of the state in the country are also available & can be added if there's a need.
+
+Data choice:
+
+This is an obvious choice, as it would State details, especially useful in reports. Data is enriched, so that, correlation between wealth of a state and visitor counts can be made. 
 
 Data munging:
 
@@ -132,6 +166,11 @@ Table file: City.parquet
 | fall_temp | float | Average temperature in the city for September, October & Novemeber|
 | winter_temp | float | Average temperature in the city for December, January & February|
 | population | number | Total population for the city|
+
+
+Data choice:
+
+Another obvious choice enabling descriptive reporting. Enrichment is brought in with demographics & temperature data, which can be utilized to study if there's a correlation between time of the year (in terms of weather conditions) & visits.
 
 Data munging:
 
@@ -170,8 +209,6 @@ Source files: i94_jan16_sub.sas7bdat
 Table File: immigration_data.parquet, partitioned by arrival_year
 
 
-Table file: City.parquet
-
 | Column | Datatype | Description
 | ----------- | ----------- | ----|
 | immigration_id | number | Unique number for the immigration, part of I94 file|
@@ -188,6 +225,10 @@ Table file: City.parquet
 | flightnum | string | Total population for the city|
 | visa_classification | string |Type of visa, Busines, Student etc|
 
+Data choice:
+
+Data choice is about what to discard & what to retain. All interesting details about the arrival have been retained, as they would enable imaginative exploration.
+
 Data munging:
 
 Only a subset of available fields used & columns renamed.
@@ -197,9 +238,109 @@ Only a subset of available fields used & columns renamed.
 
 ![alt text](images/capstone_design.png "Capstone data model")
 
+**How does the data model answer these question:**
+
+Some of the questions the database is built to answer.
+
+ * What ports do most immigrants arrive at?
+  
+    `       select c.city_code, c.city_name, count(1) as Visitors
+            from immigration_data i join city c
+                on c.city_code = i.arrival_port
+            GROUP BY c.city_code, c.city_name
+            ORDER BY 3 DESC
+            limit 10
+    ` 
+ * What seasons bring in most immigrants?
+  
+    `
+        select case when i.arrival_month in (3,4,5) then 'Spring'
+            when i.arrival_month in (3,4,5) then 'Summer'
+            when i.arrival_month in (3,4,5) then 'Fall'
+            when i.arrival_month in (3,4,5) then 'Winter'
+            else '' END season, count(1) as visitors
+        from immigration_data i 
+        group by case when i.arrival_month in (3,4,5) then 'Spring'
+            when i.arrival_month in (3,4,5) then 'Summer'
+            when i.arrival_month in (3,4,5) then 'Fall'
+            when i.arrival_month in (3,4,5) then 'Winter'
+            else '' END season
+    `
+* Do business travellers visit wealthier states?
+
+    `
+            select state_code, state_name, GDP, rank() over (order by GDP desc) wealth_rank
+            from state 
+    `  
+
+    `
+    select state_name, visitors, rank() over (order by visitors desc) visitor_rank
+            from     (select destination_state, count(1) visitors
+            from immigration_data
+            where visa_type = 1
+            group by destination_state) state_vist join state on destination_state = state_code
+    `
+
+* Which countries bring in more student immigrants?
+  
+  `select immigrant_country, count(1) students
+from immigrant_data 
+where visa_type = 3
+group by immigrant_country
+order by 2 desc 
+  `
+
+ * What's the average stay time for different categories of visitors?
+
+    `select visa, avg(stay_days) as average_stay 
+    from
+    (select case when visa_type = 1 then 'Business'
+                when visa_type = 2 then 'Pleasure'
+                when visa_type = 3 then 'Student'
+                else 'Misc' END, datediff(departure_date, arrival_date) stay_days
+    from immigrant_data
+    where departure_date is not null)
+    group by visa
+ `
+
+ * Which airline ferries most immigrants
+  
+    `select i.airline, a.airline as airline_name, count(1) passengers 
+    from immigration_date i join airlines a on i.airline = iata_code
+    group by i.airline, a.airline
+    `
+ 
+ * What is the composition of sexes among student immigrants?
+  
+    `select gender, count(1) students
+    from immigrant_data
+    where visa_type = 3
+    group by gender
+    `
+    
+    This can be plotted to see the proportions.
+ * Which states get more student travellers?
+
+    `			select state_name, students, rank() over (order by visitors desc) visitor_rank
+                from     (select destination_state, count(1) students
+                from immigration_data
+                where visa_type = 3
+                group by destination_state) state_vist join state on destination_state = state_code
+                order by 3
+    `
+ * What's the breakup of visitors at airports?
+ 
+    `			select i.arrival_port, a.airport_name, count(1) as visitors
+                from immigrant_data i join airports a on i.arrival_port = a.iata_code
+                group by i.arrival_port, a.airport_name
+                order by count(1) desc
+    `
+    
+
 ### Data Pipeline
 
 Data pipeline for processing the immigration data is built with Python & orchestrated using airflow. Data is processed into parquet files saved on disk. Following is the graphical representation of the pipeline.
+
 
 ![alt text](images/airflow_pipeline.png "Data pipeline")
 
@@ -208,6 +349,11 @@ There are 3 tasks in the pipeline
 * load_dimension_data: This task loads the parquet files for dimension tables, namely, "country" "state" "airlines" "city" & "airports". Data definition for these are provided above. 
 * load_immigration_fact_data: This task loads the Fact table, immigration_data. Appropriate raw data file is picked up based on the execution date of the task.
 * check_data_quality: This task is built to check if the data is processed as designed.
+
+Choice of pipeline stack:
+
+Airflow with Python is chosen for the pipeline as it gives a robust platform & flexibility. Processing dimensions & fact is modularized and they can be customized on their own. Dimension process is desinged only to be executed for the first time, and the process is skipped on subsequent pipeline executions. All these is enabled by airflow variables and context data. More importantly, in the future if different destinations are chosen for the warehouse, be it Postgres, Amazon S3 or Redshift, Airflow provides hooks to all these destinations, using which changes can be made easily. Modularity of the design enables specific changes to dimension & fact processing. Airflows ability to backfill will make the switch easy as well.
+
 
 **Python files & data:**
 
@@ -228,12 +374,9 @@ Pipeline expects 3 variables to be set up on airflow. Following are the explanat
 
 Note: DAG is set up with a start_date of 1st January 2016 & an end_date of 1st February 2016. If the raw data for immigration is available at the appropriate location (see raw_data section above), the DAG will create a DAG run each for 2016 January & February as catchup is set to TRUE. End date (For e.g. to December 2016, which would create a total of 12 DAG runs) can be changed appropriately. Code is designed to ignore processing for immigration data if raw data is absent.
 
-**Choice of technology stack:**
-
-This implementation is built to create warehouse in terms of parquet files (Tables) on local disks. It would be fairly straightforward to change the implementation to save the data over cloud data lakes, like AMAZON S3. Alternatively, pipeline can be modified to save data to an on-prem RDBMS like postgres. Additional steps would be to create the tables and change the code to save data to postgres. Another option would be to create a star schema of tables on cloud based columnar analytical databases such as AMAZON Redshift. Transistion from postgres to Redshift should be smooth. Also, airflow provides hooks for S3, postgres & Redshift, which simplifies configuring & connecting to these endpoints.
 
 
-**What if requirements around the project changes:**
+**What if requirements around the project change:**
 
 * *Data was increased by 100x:*  Scaling to this size would require changes to the destination of data. As discussed earlier, obvious choices would be either S3 or Amazon redshift, as both of them offer easy scalability. Amazon Redshift also offers clustering and parallel data load, which can be utilized with smart partitioning of raw data. Spark also offers multi-node cluster option, which can be leveraged.
 

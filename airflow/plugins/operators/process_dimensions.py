@@ -25,14 +25,16 @@ class ProcessDimensionsOperator(BaseOperator):
         self.load_path = data_dir
         self.save_path = save_path
         self.mode = mode
-        
+
+  #function to create spark session      
     def create_spark_session(self):
         spark = SparkSession \
             .builder \
             .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:2.7.5") \
             .getOrCreate()
         return spark
-    
+
+# Processing airline dimension data.
     def process_airlines(self, spark, table_name):
         print("Process airlines data..")
         print("begin process airlines data")
@@ -42,6 +44,7 @@ class ProcessDimensionsOperator(BaseOperator):
         airlines_df.write.mode("overwrite").parquet(self.save_path+parquet_file)
         self.log.info("Processed {table}..".format(table = table_name))
 
+# Processing airports dimension data.
     def process_airports(self, spark, table_name):
         print("Process airports data..")
         print("begin process airports data")
@@ -49,6 +52,7 @@ class ProcessDimensionsOperator(BaseOperator):
         airports_source = "airport-codes_csv.csv"
         airports_df = spark.read.csv(self.load_path+airports_source,  sep=",", header = True)
         airports_df.createOrReplaceTempView("airports")
+        #retaining data for only airports with valid iata_code.
         airports_data = spark.sql("""
             select iata_code, name as airport_name, iso_country country, split(iso_region, '-')[1] state, municipality city
             ,coordinates , type airport_type
@@ -85,6 +89,7 @@ class ProcessDimensionsOperator(BaseOperator):
         state_gdp_df = spark.read.csv(self.load_path+state_gdp_read,  sep=",", header = True)
         state_code_df.createOrReplaceTempView("state_codes")
         state_gdp_df.createOrReplaceTempView("state_gdp")
+        #Joining GDP data with state data as it is available in a separate file.
         state_write = spark.sql("""
                     select sc.state_code, sc.state_name, cast(gp.GDP as int) GDP, cast(gp.gdp_per_capita as int) gdp_per_capita
                     from state_codes sc join state_gdp gp on sc.state_name = upper(trim(gp.state))
@@ -98,13 +103,16 @@ class ProcessDimensionsOperator(BaseOperator):
         parquet_file = "city.parquet"
 
         print("process temperature data")
+        #Temperature data for all the countries is loaded upfront.
         temp = spark.read.csv(self.load_path+"GlobalLandTemperaturesByCity.csv",  sep=",", header = True)
         temp.createOrReplaceTempView("globaltemps")
+        #Filtering for united states as we are only interested in that.
         us_city_temps = spark.sql("""
                                 select city, cast(dt as date), cast(AverageTemperature as float) temperature,'USA' country
                                     from globaltemps where Country = 'United States'
                                     """)
         us_city_temps.createOrReplaceTempView("city_temps")
+        #Calculating the seasonal average based on the month of recorded temp. e.g march, april & may for spring
         spark.sql("""
                                     select city, country
                                     , round(avg(case when month(dt) in (3,4,5) then temperature else null end),1) spring_temp
@@ -123,10 +131,10 @@ class ProcessDimensionsOperator(BaseOperator):
                 from demographics 
                 group by City , `State Code`
                 """).createOrReplaceTempView("city_demographics")
-
+        #city data is available as json, loading it using json format.
         city_df = spark.read.option("multiline",True).json(self.load_path+"city_codes.json")
         city_df.createOrReplaceTempView("city")
-
+        #Joining the city data with demographics & temperature data for the final dataset.
         spark.sql("""
                 select c.city_code, c.city_name city, c.state, s.spring_temp, s.summer_temp, s.fall_temp, s.winter_temp, cd.population
                 from city c left join seasonal_temp s on upper(c.city_name) = upper(s.city)
@@ -137,7 +145,10 @@ class ProcessDimensionsOperator(BaseOperator):
 
     def execute(self, context):
         #table_name = "airlines"
+        #reading the airlfow variable, used to decide which dimension data needs processing.
         dimensions_loaded = int(Variable.get("dimensions_loaded"))
+        #only create the spark session if at least one dimension needs processing.
+        #Dimension data processed based on the value of the variable
         if dimensions_loaded < 400:
             spark = self.create_spark_session()
         if dimensions_loaded < 100:

@@ -13,6 +13,7 @@ from pyspark.sql.functions import split
 
 class ProcessImmigrantOperator(BaseOperator):
     ui_color = '#358140'
+    #defining the template fiels, here only execution_date is used. This should match the name used in the constructor.
     template_fields = ['execution_date']
     
     
@@ -28,6 +29,7 @@ class ProcessImmigrantOperator(BaseOperator):
         
     def getfilename(self):
         exec_dt = self.execution_date
+        #dictionary to deduce the month name from the month number
         months = {'01': 'jan',
                  '02': 'feb',
                  '03': 'mar',
@@ -40,6 +42,7 @@ class ProcessImmigrantOperator(BaseOperator):
                  '10': 'oct',
                  '11': 'nov',
                  '12': 'dec'}
+        #arriving at the file name to be processed based on the execution datetime.                 
         file_name = 'i94_' + months[exec_dt.split("-")[1]] + exec_dt.split("-")[0][2:] + '_sub.sas7bdat'
         return file_name
 
@@ -51,21 +54,27 @@ class ProcessImmigrantOperator(BaseOperator):
         return spark    
     
     def execute(self, context):
+        #constructing the full file path for immigration data with a call to getfilename
         sas_file = self.getfilename()
         file_folder = 'immigration_data/' + self.execution_date[:4] + '/'
+        #only the file arrived at by the DAG execution date is picked up & processed.
         file_path = self.load_path + file_folder + sas_file
+        #skipping execution if the file does not exist 
         if not path.exists(file_path):
             self.log.info('This file {fl} does not exist, quitting processing'.format(fl=file_path))
             return
         self.log.info('Processing Immigration fact load')
         parquet_file = 'immigration_data.parquet'
+        #spark session is created only if the full file path is valid.
         spark = self.create_spark_session()
         self.log.info('Spark session loaded')
         
         self.log.info('Loading the immigration data into the dataframe')
+        #loading the dataframe using sas spark format.
         df_spark =spark.read.format('com.github.saurfang.sas.spark').load(file_path)
         df_spark.createOrReplaceTempView("immigration_data")
         self.log.info('data for {month} loaded'.format(month = sas_file.split("_")[1]))
+        #naming the attributes to the desired names in the SQL. Parquet is partitioned by year for targeted processing.
         spark.sql("""
                     select ie.admnum immigration_id, ie.i94res immigrant_country
                         , DATE_ADD('1960-01-01', cast(ie.arrdate as int)) arrival_date
@@ -76,6 +85,7 @@ class ProcessImmigrantOperator(BaseOperator):
                         , ie.i94mon arrival_month,ie.i94yr arrival_year
                     from immigration_data ie
                     """).write.partitionBy("arrival_year").mode("append").parquet(self.save_path+parquet_file) 
+        #There is a case for partitioning it further by month. This can be decided upon based on access patterns                    
         self.log.info('Immigration data saved to parquet')
         
         
